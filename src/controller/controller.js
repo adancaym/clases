@@ -1,8 +1,8 @@
+
 const list = (req, res, next) => {
-    res.json({list: 'list'})
+    res.json({list})
 }
 const update = (req, res, next) => {
-    // post , put  req.body llega en forma de JSON
     res.json({update: 'update'})
 }
 const create = (req, res, next) => {
@@ -11,7 +11,6 @@ const create = (req, res, next) => {
 const remove = (req, res, next) => {
     res.json({remove: 'remove'})
 }
-
 
 module.exports = {
     list,

@@ -9,7 +9,6 @@ app.post('/producto', controllerIndex.create)
 app.put('/producto/:id', controllerIndex.update)
 app.delete('/producto/:id', controllerIndex.remove)
 
-app.listen(3000, ()=> {
+app.listen( 3000, ()=> {
     console.log('Estamos escuchando el puerto 3000')
 })
-
