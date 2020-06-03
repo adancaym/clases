@@ -1,0 +1,17 @@
+{
+  "name": "prueba",
+  "version": "1.0.0",
+  "description": "Este es un paquete de prueba",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "author": "Adan Yañez gonzalez",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
